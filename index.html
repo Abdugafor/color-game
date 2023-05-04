@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="nav">
+        <div class="container top">
+            <h1>The Greate <br>
+                <span id="colorDisplay">RGB</span>
+                 <br>
+                GUESSING GAME
+            </h1>
+        </div>
+
+        <div class="nav-bottom">
+
+            <div class="container bottom">
+
+                <div class="new-game">
+                    <button type="button" id="newGame-button" >NEW GAME</button>
+                </div>
+
+                <div>
+                    <span id="message"></span>
+                </div>
+
+                <div class="game-mode">
+                    <button type="button" id="easy-button">Easy</button>
+                    <button type="button" id="hard-button" class="active">Hard</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container" id="squareContainer">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
